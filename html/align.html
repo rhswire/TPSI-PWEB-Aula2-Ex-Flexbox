@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+	<script type="text/javascript" src="../js/flex.js"></script>
+	<title>Introdução ao alinhamento de objetos com Flex</title>
+</head>
+<body>
+	<header>
+        <a href="../index.html">HOME</a>
+		<nav>
+			<ul>
+				<li><a href="direction.html">Flex Direction</a></li>
+                <li><a href="wrap.html">Flex Wrap</a></li>
+                <li><a href="justify">Justify Content</a></li>
+                <li><a href="#">Aligh-Itens</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+        <div id="container" style="height: 500px;">
+            <div class="square">1</div>
+            <div class="square" style="font-size: 40pt;">2</div>
+            <div class="square" style="font-size: 20pt;">3</div>
+            <div class="square" style="font-size: 60pt;">4</div>
+            <div class="square">5</div>
+           
+
+        </div>
+        <div id="comandos">
+            <button onclick="alignItems('flex-start');">align-items:flex-start</button>
+            <button onclick="alignItems('flex-end');">align-items:flex-end</button>
+            <button onclick="alignItems('center');">align-items:center</button>
+            <button onclick="alignItems('baseline');">align-items:baseline:</button>
+            <button onclick="alignItems('stretch');">align-items:stretch</button>
+            
+	</main>
+	<footer></footer>
+</body>
+</html>
